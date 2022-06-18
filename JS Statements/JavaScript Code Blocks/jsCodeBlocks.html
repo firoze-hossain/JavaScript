@@ -1,13 +1,15 @@
 <html>
   <body>
     <h2>JavaScript Code Blocks Written in {}</h2>
-
+    <button onclick="codeBlocks()">Click</button>
     <p id="roze"></p>
     <p id="roze1"></p>
 
     <script>
-      document.getElementById("roze").innerHTML = "Hello Firoze";
-      document.getElementById("roze1").innerHTML = "How are you?";
+      function codeBlocks() {
+        document.getElementById("roze").innerHTML = "Hello Firoze";
+        document.getElementById("roze1").innerHTML = "How are you?";
+      }
     </script>
   </body>
 </html>
