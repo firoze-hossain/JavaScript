@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <h2>Re-declaring variable with let keyword can solve problem</h2>
+    <p>
+      <b
+        >Redeclaring variable inside a block will not redeclare a variable
+        outside of the block</b
+      >
+    </p>
+    <p id="roze"></p>
+    <script>
+      let x = 10;
+      {
+        let x = 5;
+      }
+      document.getElementById("roze").innerHTML = x;
+    </script>
+  </body>
+</html>
