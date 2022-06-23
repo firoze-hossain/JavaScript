@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <h2>Re-declaring let in another block is allowed</h2>
+    <p id="roze"></p>
+    <script>
+      let x = 15;
+      {
+        let x = 10;
+      }
+      {
+        let x = 6;
+      }
+      document.getElementById("roze").innerHTML = x;
+    </script>
+  </body>
+</html>
