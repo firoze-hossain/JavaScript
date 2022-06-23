@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h2>JavaScript let hoisting</h2>
+    <p>
+      <b>using let variable before declare it will create ReferenceError</b>
+    </p>
+    <p id="roze"></p>
+    <script>
+      try {
+        carName = "volvo";
+        let carName;
+      } catch (err) {
+        document.getElementById("roze").innerHTML = err;
+      }
+    </script>
+  </body>
+</html>
