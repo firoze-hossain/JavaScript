@@ -1,0 +1,15 @@
+<html>
+  <body>
+    <h2>const hoisting</h2>
+    <p>You can not use const variable before it is declared</p>
+    <p id="roze"></p>
+    <script>
+      try {
+        alert(carName);
+        const carName = "BMW";
+      } catch (err) {
+        document.getElementById("roze").innerHTML = err;
+      }
+    </script>
+  </body>
+</html>
