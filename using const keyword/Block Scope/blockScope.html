@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <h2>const block scope</h2>
+    <p id="roze"></p>
+    <script>
+      const x = 10;
+      {
+        const x = 2;
+      }
+      document.getElementById("roze").innerHTML = "The x is: " + x;
+    </script>
+  </body>
+</html>
