@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <h2>You can not re-assign the const object</h2>
+    <p id="roze"></p>
+    <script>
+      try {
+        const car = { Name: "Sujuki", Model: "780sj", Color: "Brown" };
+        car = { Name: "Bmw", Model: "780sj", Color: "Red" };
+      } catch (err) {
+        document.getElementById("roze").innerHTML = err;
+      }
+    </script>
+  </body>
+</html>
