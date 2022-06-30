@@ -4,6 +4,6 @@ const myArray = text.split("");
 
 text = "";
 for (let i = 0; i < myArray.length; i++) {
-  text += myArray[i]+"\n";
+  text += myArray[i] + "\n";
 }
 console.log(text);
