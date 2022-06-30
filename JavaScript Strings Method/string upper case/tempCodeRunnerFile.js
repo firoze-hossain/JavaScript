@@ -1,0 +1,1 @@
+convert string into uppercase use toUpperCase() method
